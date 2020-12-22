@@ -77,6 +77,7 @@ if __name__ == '__main__':
     for key, algo in algos.items():
         run(algo, label=key)
 
+    # グラフを現在時刻をつけて保存
     now = datetime.datetime.now()
     plt.savefig('bandit' + str(now) + '.png')
     print(exponential)
