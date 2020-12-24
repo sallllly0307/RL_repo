@@ -80,5 +80,5 @@ if __name__ == '__main__':
     # グラフを現在時刻をつけて保存
     now = datetime.datetime.now()
     plt.xlim(0, 1000)
-    plt.ylim(0, 1.75)
+    plt.ylim(-1, 1)
     plt.savefig('bandit' + str(now) + '.png')
