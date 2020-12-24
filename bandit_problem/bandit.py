@@ -79,5 +79,5 @@ if __name__ == '__main__':
 
     # グラフを現在時刻をつけて保存
     now = datetime.datetime.now()
+    plt.ylim(0, 1.75)
     plt.savefig('bandit' + str(now) + '.png')
-    print(exponential)
